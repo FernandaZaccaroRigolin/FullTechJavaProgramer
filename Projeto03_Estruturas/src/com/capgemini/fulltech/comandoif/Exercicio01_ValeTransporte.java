@@ -2,7 +2,7 @@ package com.capgemini.fulltech.comandoif;
 
 import javax.swing.JOptionPane;
 
-public class Exercicio01 {
+public class Exercicio01_ValeTransporte {
 	public static void main(String[] args) {
 		/*
 		 * O vale transporte é calculado como sendo 6% sobre um salario bruto de um funcionário
@@ -25,7 +25,5 @@ public class Exercicio01 {
 		}
 		
 		JOptionPane.showMessageDialog(null, "Vale-transporte: " + vt);
-		
-		
 	}
 }

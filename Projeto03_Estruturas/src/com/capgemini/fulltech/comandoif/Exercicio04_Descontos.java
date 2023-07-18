@@ -7,8 +7,8 @@ public class Exercicio04_Descontos {
 		/*
 		 * A mensalidade de uma escola é cobrada de acordo com o seguinte critério:
 		 * 
-		 * 1. Se o aluno estudar de manhã , o desconto será de 10% 2. Se a média total
-		 * no ano anterior for 9.5 ou 10 ele tera um desconto de 15%
+		 * 1. Se o aluno estudar de manhã, o desconto será de 10% 
+		 * 2. Se a média total no ano anterior for 9.5 ou 10 ele tera um desconto de 15%
 		 */
 
 		double mensalidade = Double.parseDouble(JOptionPane.showInputDialog("Valor da mensalidade:"));
@@ -27,10 +27,10 @@ public class Exercicio04_Descontos {
 		// verifica os descontos
 		double desconto = 0;
 		if(media >= 9.5) {
-			desconto = desconto + mensalidade * 0.15;
+			desconto +=  mensalidade * 0.15;
 		}
 		if (periodo == 1) {
-			desconto = desconto + mensalidade * 0.1;
+			desconto += desconto + mensalidade * 0.1;
 		}
 		
 		String resposta = "Mensalidade: " + mensalidade +

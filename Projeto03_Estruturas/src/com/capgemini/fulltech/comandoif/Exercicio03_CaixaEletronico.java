@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 public class Exercicio03_CaixaEletronico {
 	public static void main(String[] args) {
 		/*
-		 * Um caixa leletronico possui as seguintes cedulas 50, 20, 10, 5
+		 * Um caixa eletrônico possui as seguintes cedulas 50, 20, 10, 5
 		 * 
 		 * Determinar a quantidade de cada cedula dado o valor do saque
 		 */
@@ -24,13 +24,13 @@ public class Exercicio03_CaixaEletronico {
 			q50 = q20 = q10 = q5 = 0;
 
 			q50 = valor / 50;
-			valor = valor % 50;
+			valor %= 50;
 
 			q20 = valor / 20;
-			valor = valor % 20;
+			valor %= 20;
 
 			q10 = valor / 10;
-			valor = valor % 10;
+			valor %= 10;
 
 			q5 = valor / 5;
 

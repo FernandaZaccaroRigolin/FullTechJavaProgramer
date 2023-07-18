@@ -25,13 +25,13 @@ public class Exercicio02_CaixaEletronico {
 		q50 = q20 = q10 = q5 = 0;
 
 		q50 = valor / 50;
-		valor = valor % 50;
+		valor %= 50;
 
 		q20 = valor / 20;
-		valor = valor % 20;
+		valor %= 20;
 
 		q10 = valor / 10;
-		valor = valor % 10;
+		valor %= 10;
 
 		q5 = valor / 5;
 
