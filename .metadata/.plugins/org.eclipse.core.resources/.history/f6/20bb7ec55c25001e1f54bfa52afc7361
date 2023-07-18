@@ -32,11 +32,5 @@ public class Exercicio04_Descontos {
 		if (periodo == 1) {
 			desconto = desconto + mensalidade * 0.1;
 		}
-		
-		String resposta = "Mensalidade: " + mensalidade +
-				"\nDesconto: " + desconto +
-				"\nValor a pagar: " + (mensalidade - desconto);
-		
-		JOptionPane.showMessageDialog(null, resposta);
 	}
 }

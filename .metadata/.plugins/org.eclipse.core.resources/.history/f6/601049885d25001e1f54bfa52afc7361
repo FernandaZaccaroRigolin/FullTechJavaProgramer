@@ -6,7 +6,7 @@ public class Exercicio02_CaixaEletronico {
 	public static void main(String[] args) {
 
 		/*
-		 * Um caixa eletrônico possui as seguintes cedulas 50, 20, 10, 5
+		 * Um caixa leletronico possui as seguintes cedulas 50, 20, 10, 5
 		 * 
 		 * Determinar a quantidade de cada cedula dado o valor do saque
 		 */
