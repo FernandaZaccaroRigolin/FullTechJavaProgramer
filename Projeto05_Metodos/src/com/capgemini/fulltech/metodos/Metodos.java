@@ -47,6 +47,9 @@ public class Metodos {
 	}	
 	
 	// métodos que recebe uma quantidade variável de números reais e retorna a media entre eles
+	// Observações:
+	// 1. Cada método deve ter somente um parametro varargs
+	// 2. Se o método tiver mais parametros, sendo um deles varargs, este deve ser o último
 	public static double calcularMedia(double... numeros) {
 		double soma = 0;
 		for (double num : numeros) {
@@ -55,4 +58,14 @@ public class Metodos {
 		
 		return  (numeros.length > 0) ? soma / numeros.length : 0;
 	}
+	
+	// Versão sobrecarga de método (overloading)
+	public static double calcularMedia(double valor, double... numeros) {
+		double soma = valor;
+		for (double num : numeros) {
+			soma += num;
+		}
+		
+		return  (numeros.length > 0) ? soma / (numeros.length + 1) : soma;
+	}	
 }
