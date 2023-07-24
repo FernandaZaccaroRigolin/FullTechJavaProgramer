@@ -7,9 +7,9 @@ public class LeituraSwing {
 
 		String nome = JOptionPane.showInputDialog("Qual o seu nome?");
 
-		int idade = Integer.parseInt(JOptionPane.showInputDialog("Qual é sua idade?"));
+		int idade = Integer.parseInt(JOptionPane.showInputDialog("Qual a sua idade?"));
 
-		double altura = Double.parseDouble(JOptionPane.showInputDialog("Qual é sua altura?"));
+		double altura = Double.parseDouble(JOptionPane.showInputDialog("Qual a sua altura?"));
 
 		String resultado = " Nome: " + nome + "\nIdade" + idade + "\nAltura" + altura;
 
