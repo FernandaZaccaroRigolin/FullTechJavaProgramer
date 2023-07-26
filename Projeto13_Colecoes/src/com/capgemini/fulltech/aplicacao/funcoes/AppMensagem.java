@@ -16,6 +16,7 @@ public class AppMensagem {
 		
 		// exercicio: criar a variavel msg4 com a sua proprio implementação
 		
+		
 		System.out.println("msg1: " + msg1.mostrar());
 		System.out.println("msg2: " + msg2.mostrar());
 		System.out.println("msg3: " + msg3.mostrar());

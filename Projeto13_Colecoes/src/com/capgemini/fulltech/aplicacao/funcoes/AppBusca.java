@@ -17,11 +17,11 @@ public class AppBusca {
 		};
 		
 		// exercicio: criar a variavel b4 com a sua proprio implementação
-//		Busca b4 = texto -> {
-//			return (int) texto.chars()
-//	                .filter(ch -> ch == 'a')
-//	                .count();
-//		};
+		Busca b4 = texto -> {
+			return (int) texto.chars()
+	                .filter(ch -> ch == 'a')
+	                .count();
+		};
 		
 
 		
@@ -30,6 +30,7 @@ public class AppBusca {
 		System.out.println("b1: " + b1.executar(curso)); 
 		System.out.println("b2: " + b2.executar(curso));
 		System.out.println("b3: " + b3.executar(curso));
+		System.out.println("b3: " + b4.executar(curso));
 
 	}
 

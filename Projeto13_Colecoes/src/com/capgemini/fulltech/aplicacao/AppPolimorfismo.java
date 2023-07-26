@@ -23,12 +23,12 @@ public class AppPolimorfismo {
 				mostrarPessoa(p2);
 			}
 
-			p2 = new Aluno("Gerson", 50, Sexos.MASCULINO, 1000);
-			if (p2 instanceof Aluno) {
-				((Aluno) p2).setCurso(new Curso(110, "Java", 100, 1200.0));
-			}
-
-			mostrarPessoa(p2);
+//			p2 = new Aluno("Gerson", 50, Sexos.MASCULINO, 1000);
+//			if (p2 instanceof Aluno) {
+//				((Aluno) p2).setCurso(new Curso(110, "Java", 100, 1200.0));
+//			}
+//
+//			mostrarPessoa(p2);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
